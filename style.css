@@ -842,8 +842,15 @@ a.button:hover {
 }
 #contact .content .message{
     width: 100%;
+    display: flex;
 }
 input, textarea{
+    font-family: "Raleway", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
     color: #777;
     font-size: 14px;
     border: 1px solid #eee;
@@ -884,6 +891,7 @@ textarea{
     height: 150px;
     resize: none;
     padding: 20px;
+    
 }
 #contact .content .button button:hover{
     background-color: #ff589e;
@@ -941,10 +949,6 @@ textarea{
     font-size: inherit;
     text-rendering: auto;
 }
-.fa-facebook:before {
-    content: "\f09a";
-}
-
 .footer .content .copyright {
     width: 100%;
     text-align: center;
